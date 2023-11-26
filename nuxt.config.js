@@ -31,14 +31,14 @@ export default defineNuxtConfig({
             maskablePadding: 0,
         },
         meta: {
-            name: 'PandoraAI',
+            name: 'NgocDiep',
             description: 'Multiple AI Web Chat Client',
             theme_color: '#7733ff',
             mobileAppIOS: true,
             nativeUI: true,
         },
         manifest: {
-            name: 'PandoraAI',
+            name: 'NgocDiep GPT',
             description: 'Multiple AI Web Chat Client',
             background_color: '#7733ff',
             lang: 'en',

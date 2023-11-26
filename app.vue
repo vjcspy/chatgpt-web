@@ -35,13 +35,6 @@ onMounted(() => {
 </script>
 
 <template>
-    <a
-        href="https://github.com/waylaidwanderer/PandoraAI"
-        target="_blank"
-        id="fork-corner"
-        class="fork-corner fc-size-small fc-pos-tr fc-animate fc-theme-github"
-        title="Fork me on GitHub"
-    ></a>
     <div class="flex flex-row min-h-screen text-slate-300">
         <AppSidebar/>
         <Transition name="fade">
