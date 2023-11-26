@@ -2,7 +2,6 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import 'fork-corner/dist/fork-corner.css';
 import { storeToRefs } from 'pinia';
-import initForkCorner from '~/fork-corner';
 import AppSidebar from '~/components/AppSidebar.vue';
 import { useAppStore } from '~/stores/app';
 import { useConversationsStore } from '~/stores/conversations';
@@ -27,10 +26,6 @@ useHead({
             content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no',
         },
     ],
-});
-
-onMounted(() => {
-    initForkCorner();
 });
 </script>
 
